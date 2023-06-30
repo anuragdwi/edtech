@@ -13,7 +13,6 @@
 }
 .cntFrm form {
   display: flex;
-
   justify-content: center;
   flex-direction: column;
 }
@@ -57,4 +56,34 @@ form a {
   text-align: center;
   font-size: 2rem;
   cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .contactUs {
+    height: 80vh;
+  }
+  .cntFrm {
+  }
+  .cntImg {
+    display: none;
+  }
+  .cntFrm {
+    width: 90%;
+  }
+  .cntFrm h3 {
+    font-size: 2.6rem;
+    text-align: center;
+  }
+
+  .cntFrm h5 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  form h6 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+}
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
 }
