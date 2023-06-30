@@ -124,7 +124,6 @@ h2 {
 @media only screen and (max-width: 600px) {
   h2 {
     font-size: 3rem;
-
     width: 100%;
   }
   .courses {
@@ -135,13 +134,15 @@ h2 {
   }
   .content h1 {
     font-size: 1.8rem;
+    width: 100%;
   }
   .content h3 {
-    font-size: 1rem;
-    width: 80%;
+    font-size: 1.4rem;
+    width: 100%;
   }
   .content p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 1.2;
   }
   .shwBtn button {
     font-size: 1rem;
