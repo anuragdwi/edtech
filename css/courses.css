@@ -58,7 +58,6 @@ h2 {
 .course .content {
   color: white;
   height: 40em;
-
   padding: 2em 1em;
 }
 .content h1 {
@@ -128,6 +127,9 @@ h2 {
   }
   .courses {
     flex-direction: column;
+  }
+  .course .content {
+    height: 35em;
   }
   .course {
     width: 90%;
