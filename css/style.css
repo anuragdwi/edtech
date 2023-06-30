@@ -263,7 +263,7 @@ header .open {
   align-items: center;
   flex-direction: column;
   width: 54em;
-  padding: 1.4em 2em;
+  padding: 1.4em 1em;
 }
 .feature img {
   width: 80%;
@@ -596,9 +596,12 @@ header .open {
     font-size: 1.2rem;
   }
   .OurFeatures {
-    padding: 2em 2em;
+    padding: 2em 1em;
     background: var(--bg6);
     border-radius: 3em 3em 0 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
   }
   .OurFeatures h3 {
     font-size: var(--h5);
@@ -609,13 +612,13 @@ header .open {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin: 1em;
+    padding: 0;
     flex-direction: column;
   }
   .feature {
     display: flex;
-    width: 100%;
-    padding: 1.4em;
+    width: 90%;
+    text-align: left;
   }
   .feature img {
     width: 80%;
@@ -630,7 +633,6 @@ header .open {
   }
   .footer {
     flex-wrap: wrap;
-    /* flex-direction: column; */
     height: 100%;
   }
   .column1 {
