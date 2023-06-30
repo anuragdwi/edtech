@@ -1,0 +1,214 @@
+header {
+  position: relative;
+  background: black;
+}
+.open,
+.close {
+  color: white;
+}
+.courses {
+  position: relative;
+  padding: 4em 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+  gap: 4em;
+  flex-wrap: wrap;
+}
+h2 {
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+  background: black;
+  text-align: center;
+}
+.course {
+  width: 25%;
+  box-shadow: 5px 5px #444;
+  display: flex;
+  flex-direction: column;
+}
+.course1 {
+  background-color: var(--bg3);
+  background-color: #ed203d;
+}
+.course2 {
+  background-color: #34a47c;
+}
+.course3 {
+  background-color: #b32de2;
+}
+.course4 {
+  background-color: #34a47c;
+}
+.course .crsImg {
+  height: 10%;
+}
+.course .crsImg img {
+  width: 100%;
+  height: 100%;
+}
+.quote {
+  background: #333;
+
+  color: white;
+}
+.course .content {
+  color: white;
+  height: 40em;
+
+  padding: 2em 1em;
+}
+.content h1 {
+  font-size: 2rem;
+  width: 80%;
+  margin: 0.5em 0;
+  font-weight: bolder;
+}
+.content h3 {
+  background: #d9d9d9;
+  color: #222;
+  font-weight: bolder;
+  width: 60%;
+  border-radius: 24px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.6em 0.8em;
+}
+.content .rate {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 1em 0;
+}
+.content p {
+  color: #222;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  line-height: 1.6;
+}
+.quote p {
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 2em;
+  width: 90%;
+}
+.sticky {
+  background: black;
+}
+.sticky nav ul li a {
+  color: white;
+}
+.shwBtn {
+  display: flex;
+  align-items: center;
+  margin: 1.4em 0;
+}
+.shwBtn button {
+  padding: 8px 16px;
+  margin-right: 6px;
+  background: white;
+  outline: none;
+  font-weight: 600;
+  border-radius: 16px;
+}
+.ctaReg {
+  padding: 10px 16px;
+  background: var(--bg2);
+  color: #111;
+  font-weight: bolder;
+  box-shadow: 2px 2px black;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 3rem;
+
+    width: 100%;
+  }
+  .courses {
+    flex-direction: column;
+  }
+  .course {
+    width: 90%;
+  }
+  .content h1 {
+    font-size: 1.8rem;
+  }
+  .content h3 {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .content p {
+    font-size: 1.2rem;
+  }
+  .shwBtn button {
+    font-size: 1rem;
+  }
+  .quote p {
+    font-size: 1.5rem;
+    width: 98%;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  h2 {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .courses {
+    display: flex;
+  }
+  .course {
+    width: 36%;
+  }
+  .content h1 {
+    font-size: 1.8rem;
+  }
+  .content h3 {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .content p {
+    font-size: 1.2rem;
+  }
+  .shwBtn button {
+    font-size: 1rem;
+  }
+  .quote p {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
+  h2 {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .courses {
+    display: flex;
+  }
+  .course {
+    width: 30%;
+  }
+  .content h1 {
+    font-size: 1.5rem;
+  }
+  .content h3 {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .content p {
+    font-size: 1.2rem;
+  }
+  .shwBtn button {
+    font-size: 1rem;
+  }
+  .quote p {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+}
