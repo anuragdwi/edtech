@@ -1,0 +1,191 @@
+header {
+  background: white;
+}
+.navbar ul li a {
+  color: var(--txtclr);
+}
+.cntHero {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg2);
+}
+.cntHero .cntLeft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.cntLeft h1 {
+  width: 50%;
+}
+.cntHero .cntRight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cntRight img {
+  width: 100%;
+}
+.contactUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 0;
+  background: #d1e4f1;
+}
+.contactUs h1 {
+  font-size: 4.8rem;
+  margin-bottom: 1em;
+}
+.contactUs .contactForm {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 6px 15px 60px 9px rgba(0, 0, 0, 0.25);
+  background: #fff;
+  border-radius: 44px;
+  padding: 2em 6em;
+}
+.contactForm div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.contactForm input {
+  border-radius: 6.5rem;
+  background: #d1e4f1;
+  padding: 1.2em 2.4em;
+  border: none;
+  outline: none;
+  width: 50%;
+  margin: 1em 0.5em;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #111;
+}
+.contactForm .what {
+  width: 100%;
+}
+
+.contactForm textarea {
+  width: 100%;
+  padding: 1.2em 2.4em;
+
+  border: none;
+  background: #d1e4f1;
+  border-radius: 2.5rem;
+  outline: none;
+}
+.contactForm button {
+  width: 50%;
+  margin: 1em 0;
+  padding: 1.5rem 3rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  flex-shrink: 0;
+  border-radius: 6rem;
+  background: #00a17f;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .cntHero {
+    height: 60vh;
+    flex-direction: column-reverse;
+  }
+  .cntLeft h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .cntHero .cntLeft {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 1em;
+  }
+  .cntHero .cntRight {
+    width: 100%;
+    height: 90%;
+  }
+  .contactUs h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .contactUs .contactForm {
+    padding: 1em 2em;
+    border-radius: 30px;
+    width: 100%;
+  }
+  .contactForm input {
+    padding: 0.6em 1em;
+    font-size: 1.2rem;
+  }
+
+  .contactForm button {
+    padding: 0.6em 1.2em;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  .cntHero {
+    height: 60vh;
+  }
+  .cntLeft h1 {
+    font-size: 4rem;
+  }
+  .cntLeft {
+    width: 30%;
+  }
+  .cntRight {
+    width: 70%;
+    background-size: 100%;
+    margin-bottom: -4em;
+  }
+  .contactUs h1 {
+    font-size: 3.6rem;
+    margin-bottom: 1em;
+  }
+  .contactUs .contactForm {
+    padding: 1em 3em;
+    border-radius: 30ox;
+  }
+  .contactForm input {
+    padding: 1em 2em;
+  }
+  .contactForm button {
+    padding: 1em 2em;
+    /* width: 80%; */
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
+  .cntLeft h1 {
+    font-size: 4rem;
+  }
+  .cntLeft {
+    width: 30%;
+  }
+  .cntRight {
+    width: 70%;
+    background-size: cover;
+    margin-bottom: -4em;
+  }
+  .contactUs h1 {
+    font-size: 3.6rem;
+    margin-bottom: 1em;
+  }
+}

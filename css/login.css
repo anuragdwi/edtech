@@ -1,4 +1,4 @@
-.contactUs {
+.Login {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -58,7 +58,7 @@ form a {
   cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
-  .contactUs {
+  .Login {
     height: 80vh;
   }
 
